@@ -1,0 +1,9 @@
+2025-09-05 05:49:56.386 xcodebuild[1344:691886]  DVTDeviceOperation: Encountered a build number "" that is incompatible with DVTBuildVersion.
+2025-09-05 05:49:56.739 xcodebuild[1344:691745] [MT] DVTDeviceOperation: Encountered a build number "" that is incompatible with DVTBuildVersion.
+** BUILD FAILED **
+
+
+The following build commands failed:
+	PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Script-08A4A3CD28434E44B6B9DE2E.sh (in target 'fr' from project 'fr')
+	Building project fr with scheme fr and configuration Debug
+(2 failures)

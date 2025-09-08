@@ -1,0 +1,187 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr.xcodeproj -configuration Debug -scheme fr -destination id=02D0C544-80C3-4D03-8134-CFBB5D8D008D
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'fr' in project 'fr' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.4.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.4.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr/Images.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 0262c59e5fa48f51e6e4e18dd3479a2b
+Build description path: /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/XCBuildData/0262c59e5fa48f51e6e4e18dd3479a2b.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.4.sdk /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.4-22E235-71825a6d136aa4733edcbe86ece5525b.sdkstatcache
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.4.sdk -o /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator18.4-22E235-71825a6d136aa4733edcbe86ece5525b.sdkstatcache
+
+CreateBuildDirectory /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Products
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr.xcodeproj
+    builtin-create-build-directory /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Products
+
+CreateBuildDirectory /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr.xcodeproj
+    builtin-create-build-directory /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Products/Debug-iphonesimulator
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr.xcodeproj
+    builtin-create-build-directory /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr.xcodeproj
+    builtin-create-build-directory /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr-7223c2e29aefd6421d85aed9d9a05767-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr.xcodeproj
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr-7223c2e29aefd6421d85aed9d9a05767-VFS-iphonesimulator/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Script-800E24972A6A228C8D4807E9.sh (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Script-800E24972A6A228C8D4807E9.sh
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Script-08A4A3CD28434E44B6B9DE2E.sh (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Script-08A4A3CD28434E44B6B9DE2E.sh
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-own-target-headers.hmap (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.hmap (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.hmap
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-all-non-framework-target-headers.hmap (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-project-headers.hmap (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-project-headers.hmap
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-DebugDylibInstallName-normal-x86_64.txt (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-DebugDylibPath-normal-x86_64.txt (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-generated-files.hmap (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-generated-files.hmap
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-all-target-headers.hmap (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.DependencyStaticMetadataFileList (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.DependencyMetadataFileList (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Script-00DD1BFF1BD5951E006B06BC.sh (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Script-00DD1BFF1BD5951E006B06BC.sh
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr_const_extract_protocols.json (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr.SwiftFileList (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr.SwiftFileList
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr.SwiftConstValuesFileList (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr.LinkFileList (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr.LinkFileList
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr-OutputFileMap.json (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/fr-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Objects-normal/x86_64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+-target x86_64-apple-ios15.1-simulator '-std=gnu99' -fmodules -gmodules '-fmodules-cache-path=/Users/FedeMaciel/Library/Developer/Xcode/DerivedData/ModuleCache.noindex' -fpascal-strings -O0 -fno-common '-DDEBUG=1' '-DFB_SONARKIT_ENABLED=1' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.4.sdk -fasm-blocks -g -iquote /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-generated-files.hmap -I/Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-own-target-headers.hmap -I/Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-all-target-headers.hmap -iquote /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr-project-headers.hmap -I/Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Products/Debug-iphonesimulator/include -I/Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/DerivedSources-normal/x86_64 -I/Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/DerivedSources/x86_64 -I/Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/DerivedSources -F/Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Products/Debug-iphonesimulator
+
+MkDir /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Products/Debug-iphonesimulator/fr.app (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    /bin/mkdir -p /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Products/Debug-iphonesimulator/fr.app
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/DerivedSources/Entitlements-Simulated.plist (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/DerivedSources/Entitlements-Simulated.plist
+
+WriteAuxiliaryFile /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/DerivedSources/fr_vers.c (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    write-file /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/DerivedSources/fr_vers.c
+
+ProcessProductPackaging /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr/fr.entitlements /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app.xcent (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    
+    Entitlements:
+    
+    {
+}
+    
+    builtin-productPackagingUtility /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr/fr.entitlements -entitlements -format xml -o /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app.xcent
+
+ProcessProductPackaging /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr/fr.entitlements /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app-Simulated.xcent (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "A5B55L56XC.com.macielfede.fr";
+}
+    
+    builtin-productPackagingUtility /Users/FedeMaciel/dev/mardown-editor-poc/ios/fr/fr.entitlements -entitlements -format xml -o /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app-Simulated.xcent
+
+ProcessProductPackagingDER /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app.xcent /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app.xcent.der (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    /usr/bin/derq query -f xml -i /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app.xcent -o /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app.xcent.der --raw
+
+ProcessProductPackagingDER /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app-Simulated.xcent /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app-Simulated.xcent.der (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    /usr/bin/derq query -f xml -i /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app-Simulated.xcent -o /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/fr.app-Simulated.xcent.der --raw
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Script-08A4A3CD28434E44B6B9DE2E.sh (in target 'fr' from project 'fr')
+    cd /Users/FedeMaciel/dev/mardown-editor-poc/ios
+    /bin/sh -c /Users/FedeMaciel/Library/Developer/Xcode/DerivedData/fr-gvljtotncebhrlabaksozuereuet/Build/Intermediates.noindex/fr.build/Debug-iphonesimulator/fr.build/Script-08A4A3CD28434E44B6B9DE2E.sh
+diff: /Podfile.lock: No such file or directory
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+
+note: Run script build phase 'Bundle React Native code and images' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'fr' from project 'fr')

@@ -1,15 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import { View, StyleSheet } from "react-native";
-import { AztecNative } from "react-native-aztec";
+import RCTAztecView from "react-native-aztec";
 
-const NativeEditor = () => {
-  const [content, setContent] = useState("");
-
+const NativeEditor = ({
+  text,
+  setText,
+  handleSubmit,
+}: {
+  text: string;
+  setText: (text: string) => void;
+  handleSubmit: () => void;
+}) => {
   return (
     <View style={styles.container}>
-      <AztecNative
-        value={content}
-        onChange={(newContent: string) => setContent(newContent)}
+      <RCTAztecView
+        value={text}
+        onChange={(newContent: string) => setText(newContent)}
+        onEnter={() => handleSubmit()}
         placeholder="Enter some text..."
         style={styles.editor}
       />

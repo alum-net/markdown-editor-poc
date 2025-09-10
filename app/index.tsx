@@ -8,6 +8,9 @@ import {
 } from "react-native";
 import Markdown from "react-native-marked";
 
+import WebEditor from "../components/WebEditor";
+// import NativeEditor from "../components/NativeEditor";
+
 export default function Index() {
   const [text, setText] = useState("");
   const [messages, setMessages] = useState([
@@ -25,6 +28,11 @@ export default function Index() {
     setText("");
   };
 
+  const EditorComponent = Platform.select({
+    web: WebEditor,
+    // default: NativeEditor,
+  });
+
   return (
     <KeyboardAvoidingView
       style={styles.container}
@@ -38,7 +46,15 @@ export default function Index() {
         contentContainerStyle={styles.listContent}
       />
 
-      <View style={styles.inputContainer}></View>
+      <View style={styles.inputContainer}>
+        {EditorComponent && (
+          <EditorComponent
+            text={text}
+            setText={setText}
+            handleSubmit={handleSubmit}
+          />
+        )}
+      </View>
     </KeyboardAvoidingView>
   );
 }

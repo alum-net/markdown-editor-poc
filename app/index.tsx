@@ -7,10 +7,6 @@ import {
   StyleSheet,
 } from "react-native";
 import Markdown from "react-native-marked";
-import {
-  MarkdownTextInput,
-  parseExpensiMark,
-} from "@expensify/react-native-live-markdown";
 
 export default function Index() {
   const [text, setText] = useState("");
@@ -42,17 +38,7 @@ export default function Index() {
         contentContainerStyle={styles.listContent}
       />
 
-      <View style={styles.inputContainer}>
-        <MarkdownTextInput
-          value={text}
-          onChangeText={setText}
-          parser={parseExpensiMark}
-          onSubmitEditing={handleSubmit}
-          returnKeyType="done"
-          style={styles.input}
-          caretHidden={false}
-        />
-      </View>
+      <View style={styles.inputContainer}></View>
     </KeyboardAvoidingView>
   );
 }

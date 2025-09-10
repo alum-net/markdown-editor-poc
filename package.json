@@ -11,7 +11,6 @@
     "lint": "expo lint"
   },
   "dependencies": {
-    "@expensify/react-native-live-markdown": "^0.1.302",
     "@expo/vector-icons": "^14.1.0",
     "@react-navigation/bottom-tabs": "^7.3.10",
     "@react-navigation/elements": "^2.3.8",
@@ -34,6 +33,7 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.6",
+    "react-native-aztec": "^0.1.8",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-marked": "^7.0.2",
     "react-native-reanimated": "~3.17.4",
@@ -42,7 +42,10 @@
     "react-native-svg": "^15.12.1",
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
-    "react-native-worklets-core": "^1.6.2"
+    "react-native-worklets-core": "^1.6.2",
+    "slate": "^0.118.1",
+    "slate-history": "^0.113.1",
+    "slate-react": "^0.117.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

@@ -9,8 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint",
-    "post-install": "post-install"
+    "lint": "expo lint"
   },
   "jest": {
     "preset": "jest-expo"
@@ -34,8 +33,6 @@
     "expo-symbols": "~0.2.2",
     "expo-system-ui": "~4.0.9",
     "expo-web-browser": "~14.0.2",
-    "patch-package": "^8.0.0",
-    "postinstall-postinstall": "^2.1.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.9",
